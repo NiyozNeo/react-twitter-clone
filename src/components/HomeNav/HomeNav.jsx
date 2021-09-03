@@ -6,7 +6,7 @@ import useToken from "../../hooks/useToken";
 import { Link, NavLink } from "react-router-dom";
 
 function HomeNav() {
-  let [obj, setobj] = useToken();
+  let [obj] = useToken();
 
   let data = JSON.parse(obj);
 

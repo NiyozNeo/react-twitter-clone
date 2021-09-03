@@ -21,7 +21,7 @@ function ProfileP() {
   console.log(username);
   let data = JSON.parse(localStorage.getItem("token"));
   const [obj, setobj] = useToken();
-
+  console.log(obj);
   function logOut() {
     setobj(null);
   }

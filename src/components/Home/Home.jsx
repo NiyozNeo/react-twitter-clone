@@ -15,9 +15,8 @@ import FoodImg from "../../imgs/home-eat-img.png";
 import useToken from "../../hooks/useToken";
 
 function Home() {
-  let [obj, setobj] = useToken()
-
-  let data = JSON.parse(obj);
+  let [obj] = useToken()
+console.log(obj);
 
   return (
     <div className="home">

@@ -6,6 +6,7 @@ import "./modal.css";
 function Modal() {
   let [hello, changehello] = useState();
   let [state, changeState] = useToken();
+  console.log(state);
   function formSub(e) {
     e.preventDefault();
     let nickname = name.current.value;
@@ -26,7 +27,6 @@ function Modal() {
     let usern = username.current.value;
     let pass = password.current.value;
     if (usern && pass) {
-      console.log(hello);
       let obj = {
         name: hello.name,
         email: hello.email,
@@ -50,7 +50,6 @@ function Modal() {
           let modal = document.querySelector(".modal");
 
           if (e.target === modal) {
-            console.log(e.target);
             modal.style.display = "none";
           }
         }}
@@ -127,7 +126,6 @@ function Modal() {
           let modal2 = document.querySelector(".modal2");
           let modal = document.querySelector(".modal");
           if (e.target === modal2) {
-            console.log(e.target);
             modal2.style.display = "none";
             modal.style.display = "none";
           }
