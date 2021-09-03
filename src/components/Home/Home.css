@@ -1,0 +1,302 @@
+.home {
+    width: 850px;
+    margin-left: 250px;
+}
+
+.home__new-tweet-container {
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.home__new-tweet-input {
+    width: 701px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #828282;
+    border: none;
+
+}
+
+.home__new-tweet-wrapper {
+    margin-top: 15px;
+}
+
+.home__new-tweet {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.home__new-tweet-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.center-second__info {
+    padding: 30px 0 20px 25px;
+    position: relative;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.center-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.center-top__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin: 20px 0 20px 20px;
+}
+
+.logo-star {
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+
+.center-user {
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.center-user__logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.center-user__text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #828282;
+    margin-bottom: 51px;
+}
+
+.center-logo {
+    margin-right: 20px;
+}
+
+
+.center-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos-btn {
+    background: #1DA1F2;
+    opacity: 0.4;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 120px;
+    border: 1px solid transparent;
+
+    /* Text style */
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 100%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 15px 30px;
+}
+
+.center-top__info {
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.second-user__logo {
+    width: 60px;
+    height: 60px;
+}
+
+.second-user {
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.second-user__name {
+    margin-left: 15px;
+}
+
+
+
+
+.user-name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.user-name__span {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.user-comment {
+    margin: 0;
+}
+
+.instruments {
+    width: 586px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+}
+
+.share,
+.statistics {
+    width: 24px;
+    height: 24px;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+}
+
+.comment::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../../imgs/comment.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
+
+.retweet {
+    display: flex;
+    align-items: center;
+}
+
+.retweet::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../../imgs/retweet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+}
+
+.like::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../../imgs/like.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
+
+.second-user__other {
+    position: absolute;
+    top: 21px;
+    right: 25px;
+    font-weight: bold;
+}
+
+.green {
+    color: #0CB245;
+}
+
+.green::before {
+    background-image: url(../../imgs/retweet-green.png);
+}
+
+.red {
+    color: #EF1C5C;
+}
+
+.red::before {
+    background-image: url(../../imgs/like-red.png);
+}
+
+.user-3__info {
+    padding: 10px 25px 20px 25px;
+}
+
+
+.four-user {
+    width: 600px;
+    display: flex;
+}
+
+.four-user__img {
+    width: 60px;
+    height: 60px;
+}
+
+.four-user__name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.four-user__comment {
+    margin-left: 15px;
+}
+
+.food-img {
+    width: 679px;
+    height: 453px;
+    margin-top: 15px;
+    margin-left: 75px;
+    margin-bottom: 22px;
+}
+
+.four-user__text {
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.four-user__info {
+    padding: 10px 25px 0 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E5E5;
+}

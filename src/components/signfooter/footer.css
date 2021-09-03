@@ -1,0 +1,23 @@
+.footer__nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 18px;
+}
+.footer__nav-item {
+    margin-right: 19px;
+    font-size: 13px;
+}
+.footer__nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer__nav-link:hover {
+    text-decoration: underline;
+}
+
+.footer__nav-text {
+    font-size: 13px;
+}

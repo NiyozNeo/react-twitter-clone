@@ -1,0 +1,145 @@
+.home-link {
+    font-weight: bold;
+}
+.home-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.home-nav__list-item {   
+    margin-bottom: 30px;
+}
+
+.home-nav__list-link {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    width: 105px;
+    padding-left: 48px;
+    position: relative;
+}
+
+.home-nav__list-item:hover {
+    background-color: #E7E7E8;
+    border-radius: 30px;
+}
+
+.home-nav__list-link::before {
+    content: "";
+    background-image: url(../../imgs/home.png);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0;
+    top: -4px;
+}
+
+.home-link--active::before {
+background-image: url(../../imgs/home-logo.png);
+}
+
+.explore-link::before {
+    background-image: url(../../imgs/explore.png);
+}
+
+.not-link::before {
+    background-image: url(../../imgs/notification.png);
+}
+
+.messages-link::before {
+    background-image: url(../../imgs/messages.png);
+}
+
+.bookmarks-link::before {
+    background-image: url(../../imgs/bookmarks.png);
+}
+
+.lists-link::before {
+    background-image: url(../../imgs/lists.png);
+}
+
+.profile-link::before {
+    background-image: url(../../imgs/profile-outline.png);
+}
+
+
+
+.more-link::before {
+    background-image: url(../../imgs/more.png);
+}
+.profile-link--active::before {
+    background-repeat: no-repeat;
+    background-image: url(../../imgs/profileacitve.png) !important;
+}
+.home-btn {
+    background: #1D9BF0;
+    border-radius: 27.5px;
+    border: 1px solid transparent;
+
+    /* Text style */
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 15px 90px;
+}
+
+.home-nav__twitter-logo {
+    margin-top: 31px;
+    margin-bottom: 51px;
+}
+
+.home-nav__user {
+    width: 268px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.home-nav__user-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.home-nav__user-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.home-nav__user-adress {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.home-nav__user-other {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    background-color: #fff;
+    border: none;
+}
+
+.home-nav {
+    width: 250px;
+    height: 911px;
+    position: fixed;
+    background-color: #fff;
+    border-right: 1px solid #E5E5E5;
+    padding-right: 15px;
+    z-index: 3;
+}

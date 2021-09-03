@@ -1,0 +1,141 @@
+.modal {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__wrapper {
+    background-color: #fff;
+    position: relative;
+    width: 750px;
+    padding: 40px;
+}
+
+.modal__container {
+    width: 670px;
+    margin: 0 auto;
+}
+
+.modal__secondary-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.modal__exit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal__name {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+.modal__input {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 650px;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.modal__select-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal__date-birth {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.modal__date-words {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+.modal__select-months {
+    width: 270px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 22px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.modal__select-day , .modal__select-year {
+    width: 139px;
+    height: 50px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.modal__submit {
+    width: 670px;
+    height: 40px;
+    background: #1DA1F2;
+    border-radius: 76px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 1px solid #1DA1F2;
+    margin-top: 40px;
+}
+
+.modal__exit {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    color: #f00;
+    border: 1px solid #f00;
+}

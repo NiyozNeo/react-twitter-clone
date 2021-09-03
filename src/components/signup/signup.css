@@ -1,0 +1,81 @@
+.signup {
+    display: flex;
+}
+
+.signup__logo {
+    width: 50%;
+    height: 100vh - 55px;
+}
+
+.signup__wrapper {
+    margin-left: 40px;
+}
+
+.signup__img {
+    margin-top: 100px;
+}
+.signup__headname {
+    font-weight: 900;
+    font-size: 74px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.signup__join {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 49px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.signup__servs {
+    list-style: none;
+}
+
+.signup__servs-item {
+    margin-top: 14px;
+}
+
+.signup__servs-link {
+    width: 403px;
+    height: 62px;
+    border: 1px solid rgba(228, 234, 237, 0.8);
+    border-radius: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.signup__servs-link:hover {
+    border: 1px solid #000;
+} 
+
+.signup__terms {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    width: 373px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signup__login {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.signup__extralink {
+    color: rgba(29, 161, 242, 1);
+    text-decoration: none;
+}
+
+.signup__extralink:hover {
+    text-decoration: underline;
+}
